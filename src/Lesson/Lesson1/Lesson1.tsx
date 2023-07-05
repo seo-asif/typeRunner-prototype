@@ -44,7 +44,7 @@ export default Lesson1;*/
 
 type FirstType = { name: string; age: number; occupation: string };
 
-const Lesson1 = ({name,age,occupation}: FirstType) => {
+const Lesson1 = ({name,age}: FirstType) => {
   return <div>{age}</div>;
 };
 
